@@ -112,8 +112,8 @@ We used `clush`` for executing commands in parallel on our cluster and for gathe
 ## Installing Lustre with autoIO
 
 First, the OFED drivers need to be build and installed according to Artifact 9. Next, the Lustre client and server versions need to be build including the corresponding patch sets:
-- Lustre client: Refer to the [Client bash script](lustre/client.sh)
-- Lustre server: Refer to the [Server bash script](lustre/server.sh)
+- Lustre client: Refer to the [Client bash script](01_lustre/client.sh)
+- Lustre server: Refer to the [Server bash script](01_lustre/server.sh)
 
 The shell scripts should be used as a reference to build Lustre and deploy it. For further information on configuring Lustre, refer to Artifact 10. Chapter 10 of the Lustre manual presents a complete installation for a simple Lustre file system.
 
