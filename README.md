@@ -8,10 +8,28 @@ These artifacts contain the following contents:
 
 ## Table of contents
 
-* Prerequisites for installing Lustre
+* Directory structure
+* Prerequisites
 * Installing Lustre with autoIO
 * Used benchmarks and applications
-* Directory structure
+
+## Directory structure
+
+The `01_lustre` directory includes reference instructions how to build, install, and deploy Lustre with the Lustre modifications presented in the paper.
+
+The `02_motivation` directory includes reference instructions for the experiment from Figure 1.
+
+The `03_single_io_stream` directory includes reference instructions for the experiments from Figure 4, 5, and 6.
+
+The `04_multiple_io_stream` directory includes reference instructions for the experiments from Figure 7.
+
+The `05_io500` directory includes reference instructions for the experiments from Figures 8, 9, and 10.
+
+The `06_mpifileutils` directory includes reference instructions for the experiments from Figures 11, 12, and 13.
+
+The `07_vpicio` directory includes reference instructions for the experiments from Figure 14.
+
+The `08_nek5000` directory includes reference instructions for the experiments from Figures 15 and 16.
 
 ## Lustre modifications
 
@@ -106,6 +124,5 @@ We used the following benchmark tools and applications. Their individual install
 - IO500: https://github.com/IO500/io500
 - DCP: https://github.com/hpc/mpifileutils
 - perf: https://man7.org/linux/man-pages/man1/perf.1.html
-- VPIC-IO: https://doi.org/10.11578/dc.20181218.4 via h5bench: https://github.com/hpc-io/h5bench running VPIC-IO's I/O kernel.
+- VPIC-IO: https://doi.org/10.11578/dc.20181218.4 via h5bench: https://github.com/hpc-io/h5bench running VPIC-IO's I/O kernel. Build instructions: https://h5bench.readthedocs.io/en/latest/buildinstructions.html
 - Nek5000: https://doi.org/10.11578/dc.20210416.29 with its turbPipe workload
-
