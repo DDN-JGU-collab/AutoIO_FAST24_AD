@@ -4,7 +4,7 @@ LCTL=$(which lctl)
 LFS=$(which lfs)
 
 cleanup() {
-    salloc -p 40n --nodelist=ec[01-32] -N 32 --ntasks-per-node=16 /usr/mpi/gcc/openmpi-4.1.5a1/bin/mpirun --allow-run-as-root /work/qian/IOPerf/mpiFileUtils/install/bin/drm /exafs/s8/tf
+    salloc -p 40n --nodelist=ec[01-32] -N 32 --ntasks-per-node=16 /usr/mpi/gcc/openmpi-4.1.5a1/bin/mpirun --allow-run-as-root /work/qian/IOPerf/mpiFileUtils/install/bin/drm /exafs/dstmp
     clush -w ai400x2-1-vm[1-4] -w ec[01-32] "echo 3 > /proc/sys/vm/drop_caches"
     clush -w ec[01-32] $LCTL set_param ldlm.namespaces.*.lru_size=clear
 }

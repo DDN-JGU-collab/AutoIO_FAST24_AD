@@ -4,8 +4,8 @@
 git clone git://git.whamcloud.com/fs/lustre-release.git lustre-release_client
 cd lustre-release_client
 # pull and check out the client-side patch series against Lustre source git.
-# The tompose patch is: https://review.whamcloud.com/#/c/fs/lustre-release/+/52200/12
-git fetch "https://review.whamcloud.com/fs/lustre-release" refs/changes/00/52200/5 && git cherry-pick FETCH_HEAD
+# The topmost patch is: https://review.whamcloud.com/#/c/fs/lustre-release/+/52200/12
+git fetch "https://review.whamcloud.com/fs/lustre-release" refs/changes/00/52200/5 && git checkout FETCH_HEAD
 sh autogen.sh
 ./configure --disable-server #--with-o2ib=/usr/src/ofa_kernel/default
 make rpms

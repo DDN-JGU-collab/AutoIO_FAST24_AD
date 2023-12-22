@@ -10,14 +10,17 @@ These artifacts contain the following contents:
 
 * Directory structure
 * Prerequisites
-* Installing Lustre with autoIO
+* Installing file systems 
+    - Lustre with autoIO
+    - BeeGFS
+    - OrangeFS
 * Used benchmarks and applications
 
 ## Directory structure
 
-The `01_lustre` directory includes reference instructions how to build, install, and deploy Lustre with the Lustre modifications presented in the paper.
+The `01_filesystem_setup` directory includes reference instructions how to build, install, and deploy Lustre with the Lustre modifications presented in the paper. Moreover, this directory includes reference instructions for setting up BeeGFS and OrangeFS.
 
-The `02_motivation` directory includes reference instructions for the experiment from Figure 1.
+The `02_motivation` directory includes reference instructions for the experiment from Figures 1 and 2.
 
 The `03_single_io_stream` directory includes reference instructions for the experiments from Figure 4, 5, and 6.
 
@@ -109,13 +112,29 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/mpich/lib
 
 We used `clush`` for executing commands in parallel on our cluster and for gathering the corresponding results. More information can be found here: https://clustershell.readthedocs.io/en/latest/tools/clush.html
 
-## Installing Lustre with autoIO
+## Installing file systems
+
+The following includes reference instructions to set up Lustre, BeeGFS, and OrangeFS
+
+### Installing Lustre with autoIO
 
 First, the OFED drivers need to be build and installed according to Artifact 9. Next, the Lustre client and server versions need to be build including the corresponding patch sets:
-- Lustre client: Refer to the [Client bash script](01_lustre/client.sh)
-- Lustre server: Refer to the [Server bash script](01_lustre/server.sh)
+- Lustre client: Refer to the [Client bash script](01_filesystem_setup/lustre/client.sh)
+- Lustre server: Refer to the [Server bash script](01_filesystem_setup/lustre/server.sh)
 
 The shell scripts should be used as a reference to build Lustre and deploy it. For further information on configuring Lustre, refer to Artifact 10. Chapter 10 of the Lustre manual presents a complete installation for a simple Lustre file system.
+
+### Installing BeeGFS
+
+We used BeeGFS in version 7.4.0. The BeeGFS server and client instruction references are available at https://doc.beegfs.io/latest/quick_start_guide/quick_start_guide.html . In addition, we provide our used scripts to setup and re-config BeeGFS:
+- BeeGFS client: Refer to the [Client script directory](01_filesystem_setup/beegfs/client/)
+- BeeGFS server: Refer to the [Server script directory](01_filesystem_setup/beegfs/server/)
+
+### Installing OrangeFS
+
+We used OrangeFS in version 2.10.0 on CentOS 8.7. The OrangeFS server and client instruction references are available at https://docs.orangefs.com/quickstart/quickstart-package/. In addition, we provide our used scripts to setup and re-config OrangeFS:
+- OrangeFS client: Refer to the [Client script directory](01_filesystem_setup/orangefs/client/)
+- OrangeFS server: Refer to the [Server script directory](01_filesystem_setup/orangefs/server/)
 
 ## Used benchmarks and applications
 
