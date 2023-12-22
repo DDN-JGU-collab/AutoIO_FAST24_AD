@@ -31,6 +31,6 @@ run_batch_srv_wb() {
 
 # runs base only as an example
 run_base
-run_batch
-run_srv_wb
-run_batch_srv_wb
+# run_batch
+# run_srv_wb
+# run_batch_srv_wb

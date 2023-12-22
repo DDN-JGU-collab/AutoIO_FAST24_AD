@@ -1,8 +1,8 @@
 # "Combining Buffered I/O and Direct I/O in Distributed File Systems" Artifacts Description
 
-This repository contains the instructions to setup a similar environment as was used in the paper "Combining Buffered I/O and Direct I/O in Distributed File Systems" from the USENIX FAST 24 submission. In addition, these artifacts provide a detailed description of the configurations of the experiments in the paper. 
+This repository contains the instructions to setup a similar environment as was used in the paper "*Combining Buffered I/O and Direct I/O in Distributed File Systems*" from the USENIX FAST 24 submission. In addition, these artifacts provide a detailed description of the configurations of the experiments in the paper.
 
-Please note that due to the complexity of fully configuring and testing a Lustre installation, these artifacts are not functional. Instead, this repository makes the artifacts description *available* for reference, making it possible to run similar experiments as provided in the paper.
+Please note that due to the complexity of fully configuring and testing a Lustre installation, these artifacts are not *functional* (as in all scripts run automatically). However, this repository makes the artifacts description *available* for reference, making it possible to run similar experiments in similar configurations as provided in the paper.
 
 These artifacts contain the following contents:
 
@@ -17,6 +17,8 @@ These artifacts contain the following contents:
 * Used benchmarks and applications
 
 ## Directory structure
+
+The following directory structure covers the setup and configurations of all used file systems and all used experiments from the paper.
 
 The `01_filesystem_setup` directory includes reference instructions how to build, install, and deploy Lustre with the Lustre modifications presented in the paper. Moreover, this directory includes reference instructions for setting up BeeGFS and OrangeFS.
 
