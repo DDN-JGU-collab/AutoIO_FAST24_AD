@@ -1,4 +1,4 @@
-# "Combining Buffered I/O and Direct I/O in Distributed File Systems" Artifacts Description
+# FAST '24: "Combining Buffered I/O and Direct I/O in Distributed File Systems" Artifacts Description
 
 This repository contains the instructions to setup a similar environment as was used in the paper "*Combining Buffered I/O and Direct I/O in Distributed File Systems*" from the USENIX FAST 24 submission. In addition, these artifacts provide a detailed description of the configurations of the experiments in the paper.
 
