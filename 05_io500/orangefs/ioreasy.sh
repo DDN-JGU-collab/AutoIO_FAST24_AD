@@ -16,3 +16,4 @@ run_directio() {
 
 # runs altaio only as an example
 run_altaio
+# run_directio

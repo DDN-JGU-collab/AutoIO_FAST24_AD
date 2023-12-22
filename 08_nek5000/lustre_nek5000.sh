@@ -40,3 +40,5 @@ run_autoio_srvwb() {
 
 # runs run_base_lustre only as an example
 run_base_lustre
+# run_autoio
+# run_autoio_srvwb

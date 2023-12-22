@@ -26,3 +26,4 @@ run_buffered() {
 
 # runs native only as an example
 run_native
+# run_buffered

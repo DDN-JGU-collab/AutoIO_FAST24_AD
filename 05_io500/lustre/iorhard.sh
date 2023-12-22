@@ -27,8 +27,6 @@ run_base_dio() {
 run_bio_srv_wb() {
     # Enable server-side writeback on OSD ldiskfs
     clush -w ai400x2-1-vm[1-4] $LCTL set_param osd-ldiskfs.*.writeback_max_io_kb=64
-    # Enable client-side batch writes
-    clush -w ec[01-10] $LCTL set_param osc.*.batch_write_enabled=1
 
     # Clear ldlm lock stats
     clush -w ai400x2-1-vm[1-4] $LCTL set_param obdfilter.*.exports.*.ldlm_stats=clear
@@ -42,8 +40,6 @@ run_bio_srv_wb() {
 run_dio_srv_wb() {
     # Enable server-side writeback on OSD ldiskfs
     clush -w ai400x2-1-vm[1-4] $LCTL set_param osd-ldiskfs.*.writeback_max_io_kb=64
-    # Enable client-side batch writes
-    clush -w ec[01-10] $LCTL set_param osc.*.batch_write_enabled=1
 
     # Clear ldlm lock stats
     clush -w ai400x2-1-vm[1-4] $LCTL set_param obdfilter.*.exports.*.ldlm_stats=clear
@@ -58,8 +54,6 @@ run_dio_srv_wb() {
 run_autoio_delalloc() {
     # Enable client-side autoIO on 10 nodes
     clush -w ec[01-10] $LCTL set_param llite.*.bio_as_dio=1
-    # Enable client-side batch writes
-    clush -w ec[01-10] $LCTL set_param osc.*.batch_write_enabled=1
     # Enable server-side writeback on OSD ldiskfs
     clush -w ai400x2-1-vm[1-4] $LCTL set_param osd-ldiskfs.*.writeback_max_io_kb=64
     # Enable delayed allocation
@@ -77,3 +71,7 @@ run_autoio_delalloc() {
 
 # runs base buffered I/O only as an example
 run_base_bio
+run_base_dio
+run_bio_srv_wb
+run_dio_srv_wb
+run_autoio_delalloc

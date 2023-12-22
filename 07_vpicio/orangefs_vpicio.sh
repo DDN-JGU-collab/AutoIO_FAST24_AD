@@ -26,5 +26,6 @@ run_iomode_one() {
 	rm $dir/*
 }
 
+# runs io mode altaio only as an example
 run_iomode_one "alt-aio"
-run_iomode_one "directio"
+# run_iomode_one "directio"

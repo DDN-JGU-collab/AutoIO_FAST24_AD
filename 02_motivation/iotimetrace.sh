@@ -41,5 +41,5 @@ run_io_breakdown_lustre() {
 }
 
 run_io_breakdown_ext4
-run_io_breakdown_beegfs
-run_io_breakdown_lustre
+#run_io_breakdown_beegfs
+#run_io_breakdown_lustre

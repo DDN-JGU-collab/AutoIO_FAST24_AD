@@ -94,3 +94,6 @@ run_autoio() {
 
 # runs base bio only as an example
 run_base_bio
+# run_base_dio
+# run_base_udio
+# run_autoio

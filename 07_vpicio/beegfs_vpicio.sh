@@ -26,5 +26,6 @@ run_iomode_one() {
 	rm $dir/*
 }
 
+# runs io mode native only as an example
 run_iomode_one "native"
-run_iomode_one "buffered"
+# run_iomode_one "buffered"

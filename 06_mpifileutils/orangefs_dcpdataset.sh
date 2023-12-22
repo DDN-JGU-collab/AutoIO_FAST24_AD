@@ -26,3 +26,4 @@ run_directio() {
 
 # runs native only as an example
 run_altaio
+# run_directio

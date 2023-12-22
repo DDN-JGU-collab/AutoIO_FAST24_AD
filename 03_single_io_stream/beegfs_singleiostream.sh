@@ -75,3 +75,5 @@ run_base_dio() {
 
 # runs native bio only as an example
 run_native_bio
+# run_buffered_bio
+# run_base_dio

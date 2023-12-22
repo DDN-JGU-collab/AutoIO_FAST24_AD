@@ -94,3 +94,6 @@ run_directio_dio() {
 
 # runs alt-aio bio only as an example
 run_altaio_bio
+# run_altaio_dio
+# run_directio_bio
+# run_directio_dio

@@ -46,3 +46,6 @@ run_autoio_batch_srvwb() {
 
 # runs get_file_size_distribution only as an example
 get_file_size_distribution
+# run_base_lustre
+# run_autoio
+# run_autoio_batch_srvwb

@@ -24,4 +24,4 @@ run_dio() {
 }
 
 run_bio
-run_dio
+#run_dio
