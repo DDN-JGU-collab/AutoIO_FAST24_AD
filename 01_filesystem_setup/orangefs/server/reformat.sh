@@ -1,6 +1,6 @@
 #!/bin/sh
 sh cleanup.sh
-clush -w ai400x2-1-vm[1-4] mkdir -p /mnt/beefs_meta/orangefs
+clush -w ai400x2-1-vm[1-4] mkdir -p /mnt/orangefs_meta/orangefs
 clush -w ai400x2-1-vm[1-4] rm -rf /mnt/orangefs_meta/orangefs/*
 
 clush -w ai400x2-1-vm1 mkdir -p /mnt/orangefs_storage0/orangefs
