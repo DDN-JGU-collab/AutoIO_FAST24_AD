@@ -1,10 +1,14 @@
 # FAST '24: "Combining Buffered I/O and Direct I/O in Distributed File Systems" Artifacts Description
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10425916.svg)](https://doi.org/10.5281/zenodo.10425916)
 
+> [!IMPORTANT]
+> **This repository supplements the long-term Zenodo repository, see [here](https://zenodo.org/records/10425916), and offers easy access to the artifacts' documentation and scripts. The corresponding versions are mirrored between Github and Zenodo, i.e., `v1` on Zenodo mirrors `v1.0` of this repository. Please note that a DOI is available for referencing these artifacts (see above). However, depending on the currently viewed version, the DOI may not be the most recent. Please consult Zenodo to access the latest version.** 
+
+## Introduction
 
 This repository contains the instructions to setup a similar environment as was used in the paper "*Combining Buffered I/O and Direct I/O in Distributed File Systems*" from the USENIX FAST 24 submission. In addition, these artifacts provide a detailed description of the configurations of the experiments in the paper.
 
-Please note that due to the complexity of fully configuring and testing a Lustre installation, these artifacts are not *functional* (as in all scripts run automatically). However, this repository makes the artifacts description *available* for reference, making it possible to run similar experiments in similar configurations as provided in the paper.
+Please note that due to the complexity of fully configuring and testing a Lustre installation, these artifacts are not *functional* (as in, all scripts run automatically). However, this repository makes the artifacts description *available* for reference, making it possible to run similar experiments in similar configurations as provided in the paper.
 
 These artifacts contain the following contents:
 
