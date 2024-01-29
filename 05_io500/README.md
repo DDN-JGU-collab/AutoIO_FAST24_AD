@@ -1,15 +1,15 @@
 # IO500 experiments
 
-This directory includes reference instructions for the experiments from Figures 8, 9, and 10.
+This directory includes reference instructions for the experiments from Figures 9, 10, and 11.
 - All Lustre reference experiments are presented in the `lustre` subdirectory
-    - [IOR Easy experiments](lustre/ioreasy.sh)
-    - [IOR Hard experiments](lustre/iorhard.sh)
-    - [MDtest hard experiments](lustre/mdtest-hard.sh)
+    - [mdtest-hard experiments (Figure 9)](lustre/mdtest-hard.sh)
+    - [ior-easy experiments (Figure 10)](lustre/ioreasy.sh)
+    - [ior-hard experiments (Figure 11)](lustre/iorhard.sh)
 - All OrangeFS reference experiments are presented in the `orangefs` subdirectory
-    - [IOR Easy experiments](orangefs/ioreasy.sh)
-    - [IOR Hard experiments](orangefs/iorhard.sh)
-    - [MDtest hard experiments](orangefs/mdtest-hard.sh)
+    - [mdtest-hard experiments (Figure 9)](orangefs/mdtest-hard.sh)
+    - [ior-easy experiments (Figure 10)](orangefs/ioreasy.sh)
+    - [ior-hard experiments (Figure 11)](orangefs/iorhard.sh)
 - All BeeGFS reference experiments are presented in the `beegfs` subdirectory
-    - [IOR Easy experiments](beegfs/ioreasy.sh)
-    - [IOR Hard experiments](beegfs/iorhard.sh)
-    - [MDtest hard experiments](beegfs/mdtest-hard.sh)
+    - [mdtest-hard experiments (Figure 9)](beegfs/mdtest-hard.sh)
+    - [ior-easy experiments (Figure 10)](beegfs/ioreasy.sh)
+    - [ior-hard experiments (Figure 11)](beegfs/iorhard.sh)

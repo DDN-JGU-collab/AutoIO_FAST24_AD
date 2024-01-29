@@ -1,5 +1,5 @@
 # FAST '24: "Combining Buffered I/O and Direct I/O in Distributed File Systems" Artifacts Description
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10425915.svg)](https://zenodo.org/doi/10.5281/zenodo.10425915)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10425915.svg)](https://doi.org/10.5281/zenodo.10425915)
 
 > [!IMPORTANT]
 > **This repository supplements the long-term Zenodo repository, see [here](https://zenodo.org/doi/10.5281/zenodo.10425915), and offers easy access to the artifacts' documentation and scripts. The corresponding versions are mirrored between Github and Zenodo, i.e., `v1` on Zenodo mirrors `v1.0` of this repository. Please note that a DOI is available for referencing these artifacts (see above).** 
@@ -28,19 +28,19 @@ The following directory structure covers the setup and configurations of all use
 
 The `01_filesystem_setup` directory includes reference instructions how to build, install, and deploy Lustre with the Lustre modifications presented in the paper. Moreover, this directory includes reference instructions for setting up BeeGFS and OrangeFS.
 
-The `02_motivation` directory includes reference instructions for the experiment from Figures 1 and 2.
+The `02_motivation` directory includes reference instructions for the experiment from Figures 1, 2, and 4.
 
-The `03_single_io_stream` directory includes reference instructions for the experiments from Figure 4, 5, and 6.
+The `03_single_io_stream` directory includes reference instructions for the experiments from Figures 5, 6, and 7.
 
-The `04_multiple_io_stream` directory includes reference instructions for the experiments from Figure 7.
+The `04_multiple_io_stream` directory includes reference instructions for the experiments from Figure 8.
 
-The `05_io500` directory includes reference instructions for the experiments from Figures 8, 9, and 10.
+The `05_io500` directory includes reference instructions for the experiments from Figures 9, 10, and 11.
 
-The `06_mpifileutils` directory includes reference instructions for the experiments from Figures 11, 12, and 13.
+The `06_mpifileutils` directory includes reference instructions for the experiments from Figures 12, 13, and 14.
 
-The `07_vpicio` directory includes reference instructions for the experiments from Figure 14.
+The `07_vpicio` directory includes reference instructions for the experiments from Figure 15.
 
-The `08_nek5000` directory includes reference instructions for the experiments from Figures 15 and 16.
+The `08_nek5000` directory includes reference instructions for the experiments from Figures 16 and 17.
 
 ## Lustre modifications
 

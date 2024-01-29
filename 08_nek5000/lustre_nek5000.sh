@@ -3,7 +3,7 @@
 # Nek5000 benchmark
 LCTL=$(which lctl)
 LFS=$(which lfs)
-AUTOIOSTATS="../autoiostats.sh"
+AUTOIOSTATS="./autoiostats.sh"
 
 run_base_lustre() {
     # Lustre (default buffered I/O)

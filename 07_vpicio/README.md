@@ -1,6 +1,6 @@
 # VPIC-IO experiments
 
-This directory includes reference instructions for the experiments from Figure 14.
+This directory includes reference instructions for the experiments from Figure 15.
 - [Lustre VPICIO Experiment](lustre_vpicio.sh) including statistics from Table 3. 
 - [BeeGFS VPICIO Experiment](beegfs_vpicio.sh)
 - [OrangeFS VPICIO Experiment](orangefs_vpicio.sh)
